@@ -1,0 +1,9 @@
+.text-color {
+  color: #fff;
+}
+
+.general-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
