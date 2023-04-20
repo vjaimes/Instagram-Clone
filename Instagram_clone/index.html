@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/helpers.css" />
+
+    <title>Instagram Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ************************ -->
+      <!-- NAVIGATION -->
+      <!-- ************************ -->
+      <nav class="nav-container-main">
+        <div class="nav-container-inner">
+          <div class="site-title">
+            <h3>Instagram</h3>
+          </div>
+
+          <div class="links-container">
+            <a class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="home-outline"></ion-icon>
+                <span class="nav-name">Home</span>
+              </div>
+            </a>
+
+            <div class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="search-outline"></ion-icon>
+                <span class="nav-name">Search</span>
+              </div>
+            </div>
+            <div class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="compass-outline"></ion-icon>
+                <span class="nav-name">Explore</span>
+              </div>
+            </div>
+            <div class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="film-outline"></ion-icon>
+                <span class="nav-name">Reels</span>
+              </div>
+            </div>
+            <div class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="chatbubble-ellipses-outline">
+                </ion-icon>
+                <span class="nav-name">Messages</span>
+              </div>
+            </div>
+            <div class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="notifications-outline">
+                </ion-icon>
+                <span class="nav-name">Notifications</span>
+              </div>
+            </div>
+            <div class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="create-outline"></ion-icon>
+                <span class="nav-name">Create</span>
+              </div>
+            </div>
+            <div class="link-flex">
+              <div class="general-flex">
+                <ion-icon class="link-icon" name="person-circle-outline">
+                </ion-icon>
+              </div>
+              <span class="nav-name">Profile</span>
+            </div>
+          </div>
+          <div class="link-flex" name="nav-last">
+            <div class="general-flex">
+              <ion-icon class="link-icon" name="menu-outline"></ion-icon>
+              <span class="nav-name">More</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ************************ -->
+      <!-- HEADER SECTION-->
+      <!-- ************************ -->
+      <section class="section-user">
+        <header>
+          <div class="user-img-cont">
+            <img
+              class="user-img"
+              src="https://photographylife.com/wp-content/uploads/2016/06/Mass.jpg"
+              alt="Picture of seaside in a cloudy environment with mountains in the background"
+            />
+          </div>
+          <div class="bio-container">
+            <div class="user-header">
+              <h3 class="username">Seasonful_Experience</h3>
+              <button href="" class="user-act-btn--follow btn-general">
+                Follow
+              </button>
+              <a href="" class="user-act-btn--following btn-general">Message</a>
+              <button class="add-btn btn-general">
+                <ion-icon class="add-icon" name="person-add-outline"></ion-icon>
+              </button>
+              <a href="" class="btn-general">
+                <ion-icon
+                  class="dots-btn"
+                  name="ellipsis-horizontal"
+                ></ion-icon>
+              </a>
+            </div>
+            <div class="account-details">
+              <span><strong>10</strong> posts</span>
+              <span><strong>20</strong> followers</span>
+              <span><strong>38</strong> following</span>
+            </div>
+            <div class="bio-desc">
+              Discover the world's stunning landscapes. From mountains to
+              deserts, forests to beaches, we showcase the beauty and diversity
+              of nature. Join us and explore the wonders of the natural world.
+            </div>
+          </div>
+        </header>
+
+        <!-- ************************ -->
+        <!-- STORIES SECTION-->
+        <!-- ************************ -->
+        <section class="margin-container">
+          <div class="stories-container">
+            <div class="story-bubble">
+              <div class="bubble-container">
+                <img
+                  src="https://cdn.uc.assets.prezly.com/35778ab2-e31e-4248-81bd-f1fa715d59d5/-/preview/1920x1200/-/quality/best/-/format/auto/"
+                  alt=""
+                  class="story-img"
+                />
+              </div>
+              <span class="story-title">Deserts</span>
+            </div>
+            <div class="story-bubble">
+              <div class="bubble-container">
+                <img
+                  src="https://ewscripps.brightspotcdn.com/dims4/default/c85653f/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F9c%2F75%2Fee0b9f3142a0a63f6c4ec8d49250%2Fkm8.png"
+                  alt=""
+                  class="story-img"
+                />
+              </div>
+              <span class="story-title">Winter Wonderlands</span>
+            </div>
+            <div class="story-bubble">
+              <div class="bubble-container">
+                <img
+                  src="https://media.cntraveler.com/photos/5ca2606227413200230736ae/master/pass/Summer-Travel_GettyImages-1028278382.jpg"
+                  alt=""
+                  class="story-img"
+                />
+              </div>
+              <span class="story-title">Summery Views</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ************************ -->
+        <!-- POSTS SECTION-->
+        <!-- ************************ -->
+        <article class="posts">
+          <!-- POST NAV SECTION -->
+          <nav class="post-nav-cont">
+            <a class="post-cont-inner post-nav--selected" href="#">
+              <ion-icon class="post-nav-icon" name="grid-outline"></ion-icon>
+              <span>posts</span>
+            </a>
+            <a class="post-cont-inner" href="#">
+              <ion-icon class="post-nav-icon" name="film-outline"></ion-icon>
+              <span>reels</span>
+            </a>
+            <a class="post-cont-inner" href="#">
+              <ion-icon
+                class="post-nav-icon"
+                name="person-circle-outline"
+              ></ion-icon>
+              <span>tagged</span>
+            </a>
+          </nav>
+
+          <!-- POST ROWS -->
+          <div class="row-container">
+            <a href="#" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (1).jpg" alt="" />
+            </a>
+
+            <a href="#" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (2).jpg" alt="" />
+            </a>
+
+            <a href="#" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (3).jpg" alt="" />
+            </a>
+          </div>
+
+          <div class="row-container">
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (4).jpg" alt="" />
+            </a>
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (5).jpg" alt="" />
+            </a>
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (6).jpg" alt="" />
+            </a>
+          </div>
+          <div class="row-container">
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (7).jpg" alt="" />
+            </a>
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (8).jpg" alt="" />
+            </a>
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (9).jpg" alt="" />
+            </a>
+          </div>
+          <div class="row-container">
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img class="img-post" src="img/nature_ (10).jpg" alt="" />
+            </a>
+          </div>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
