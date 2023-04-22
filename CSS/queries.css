@@ -1,0 +1,164 @@
+@media (max-width: 36rem) {
+  /* ************************* */
+  /* NAVIGATION */
+  /* ************************* */
+  .site-title {
+    display: none;
+  }
+
+  .nav-name {
+    display: none;
+  }
+
+  .nav-container-inner {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-end; */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+
+  .links-container {
+    position: absolute;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000;
+    width: 100vw;
+    height: 4.5rem;
+  }
+
+  #reels-btn {
+    order: 3;
+  }
+
+  #profile-btn {
+    order: 20;
+  }
+
+  #messages-btn,
+  #notif-btn,
+  #more-btn,
+  #compass-btn {
+    display: none;
+  }
+
+  /* ************************* */
+  /* HEADER */
+  /* ************************* */
+  .section-user {
+    margin: 0;
+  }
+
+  .user-img-cont {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .user-img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  header {
+    /* flex-direction: column; */
+    height: 40vh;
+    position: relative;
+  }
+
+  .bio-container {
+    margin-top: 1rem;
+    width: 100vw;
+  }
+
+  h1 {
+    font-size: 1.8 rem;
+  }
+
+  .user-action {
+    position: absolute;
+    top: 5rem;
+  }
+
+  .bio-desc {
+    position: absolute;
+    bottom: 35%;
+    left: 1rem;
+    width: 100vw;
+  }
+
+  .account-details {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    gap: 10rem;
+    bottom: -60%;
+    left: 5rem;
+    border-top: 1px #fff;
+  }
+
+  .account-details > span {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1rem;
+    /* text-align: center; */
+  }
+
+  /* ************************* */
+  /* STORIES */
+  /* ************************* */
+  .stories-container {
+    padding-left: 1rem;
+    margin-bottom: 9rem;
+    gap: 2rem;
+    height: 8rem;
+  }
+
+  .story-bubble {
+    text-align: center;
+  }
+
+  .story-title {
+    width: 7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .bubble-container {
+    width: 5rem;
+    height: 5rem;
+  }
+  /* ************************* */
+  /* POSTS */
+  /* ************************* */
+  .posts {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .post-nav-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  nav > a > :nth-child(2) {
+    display: none;
+  }
+
+  .row-container {
+    width: 100vw;
+    margin-bottom: 0.3rem;
+  }
+
+  .img-container {
+    width: 11.8rem;
+    height: 11.8rem;
+  }
+}

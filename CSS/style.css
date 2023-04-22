@@ -140,6 +140,10 @@ header {
   width: 100%;
 }
 
+.user-action {
+  display: inline-block;
+}
+
 .btn-general {
   text-decoration: none;
   color: inherit;
@@ -250,9 +254,6 @@ header {
   transform: translate(-25%, -10%);
   width: 20rem;
   height: 10rem;
-  /* overflow: hidden; */
-  /* visibility: hidden; */
-  /* transform: translate(-25%, -10%); */
 }
 
 .story-title {

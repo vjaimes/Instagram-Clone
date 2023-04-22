@@ -30,6 +30,7 @@
 
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/helpers.css" />
+    <link rel="stylesheet" href="CSS/queries.css" />
 
     <title>Instagram Clone</title>
   </head>
@@ -45,52 +46,52 @@
           </div>
 
           <div class="links-container">
-            <a class="link-flex">
+            <a class="link-flex" id="home-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="home-outline"></ion-icon>
                 <span class="nav-name">Home</span>
               </div>
             </a>
 
-            <div class="link-flex">
+            <div class="link-flex" id="search-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="search-outline"></ion-icon>
                 <span class="nav-name">Search</span>
               </div>
             </div>
-            <div class="link-flex">
+            <div class="link-flex" id="compass-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="compass-outline"></ion-icon>
                 <span class="nav-name">Explore</span>
               </div>
             </div>
-            <div class="link-flex">
+            <div class="link-flex" id="reels-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="film-outline"></ion-icon>
                 <span class="nav-name">Reels</span>
               </div>
             </div>
-            <div class="link-flex">
+            <div class="link-flex" id="messages-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="chatbubble-ellipses-outline">
                 </ion-icon>
                 <span class="nav-name">Messages</span>
               </div>
             </div>
-            <div class="link-flex">
+            <div class="link-flex" id="notif-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="notifications-outline">
                 </ion-icon>
                 <span class="nav-name">Notifications</span>
               </div>
             </div>
-            <div class="link-flex">
+            <div class="link-flex" id="create-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="create-outline"></ion-icon>
                 <span class="nav-name">Create</span>
               </div>
             </div>
-            <div class="link-flex">
+            <div class="link-flex" id="profile-btn">
               <div class="general-flex">
                 <ion-icon class="link-icon" name="person-circle-outline">
                 </ion-icon>
@@ -98,7 +99,7 @@
               <span class="nav-name">Profile</span>
             </div>
           </div>
-          <div class="link-flex" name="nav-last">
+          <div class="link-flex" id="more-btn" name="nav-last">
             <div class="general-flex">
               <ion-icon class="link-icon" name="menu-outline"></ion-icon>
               <span class="nav-name">More</span>
@@ -121,14 +122,28 @@
           </div>
           <div class="bio-container">
             <div class="user-header">
-              <h3 class="username">Seasonful_Experience</h3>
-              <button href="" class="user-act-btn--follow btn-general">
-                Follow
-              </button>
-              <a href="" class="user-act-btn--following btn-general">Message</a>
-              <button class="add-btn btn-general">
-                <ion-icon class="add-icon" name="person-add-outline"></ion-icon>
-              </button>
+              <h1 class="username">Seasonful_Experience</h1>
+              <div class="user-action">
+                <button
+                  href=""
+                  class="user-act-btn--follow btn-general"
+                  id="follow"
+                >
+                  Follow
+                </button>
+                <a
+                  href=""
+                  class="user-act-btn--following btn-general"
+                  id="message"
+                  >Message</a
+                >
+                <button class="add-btn btn-general" id="add-friend">
+                  <ion-icon
+                    class="add-icon"
+                    name="person-add-outline"
+                  ></ion-icon>
+                </button>
+              </div>
               <a href="" class="btn-general">
                 <ion-icon
                   class="dots-btn"
