@@ -1,10 +1,11 @@
 @media (max-width: 36rem) {
-  .container {
-    overflow-x: hidden;
-  }
   /* ************************* */
   /* NAVIGATION */
   /* ************************* */
+  body {
+    overflow-x: hidden;
+  }
+
   .site-title {
     display: none;
   }
@@ -14,13 +15,9 @@
   }
 
   .nav-container-inner {
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-end; */
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
     z-index: 10;
   }
 
@@ -69,7 +66,6 @@
   }
 
   header {
-    /* flex-direction: column; */
     height: 30vh;
     position: relative;
   }
@@ -81,6 +77,10 @@
 
   h1 {
     font-size: 1.8rem;
+  }
+
+  .btn-general {
+    z-index: 10;
   }
 
   .user-action {
@@ -105,7 +105,7 @@
     left: 0;
     padding-left: 5rem;
     padding-top: 1rem;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #363636;
   }
 
   .account-details > span {
@@ -145,9 +145,31 @@
   /* ************************* */
   /* POSTS */
   /* ************************* */
+  .post-nav-cont {
+    all: unset;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .post-cont-inner {
+    width: 11.7rem;
+    justify-content: center;
+  }
+
+  .post-cont-inner span {
+    display: none;
+  }
+
+  .post-nav--selected {
+    /* width: 100%; */
+    border-top: 1px solid #fff;
+  }
+
   .posts {
     width: 100vw;
-    height: 50vh;
+    height: fit-content;
+    /* padding-bottom: 7rem; */
+    margin-bottom: 5rem;
   }
 
   .post-nav-icon {
