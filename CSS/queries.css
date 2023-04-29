@@ -53,76 +53,74 @@
     margin: 0;
   }
 
+  header {
+    position: relative;
+  }
+
   .user-img-cont {
-    margin-top: 1rem;
-    margin-left: 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
     width: 8rem;
     height: 8rem;
   }
 
   .user-img {
-    width: 8rem;
-    height: 8rem;
+    width: inherit;
+    height: inherit;
+    padding: 1rem 1rem;
   }
 
-  header {
-    height: 30vh;
-    position: relative;
-  }
-
-  .bio-container {
-    margin-top: 1rem;
-    width: 100vw;
-  }
-
-  h1 {
+  .username {
+    position: absolute;
     font-size: 1.8rem;
+    top: 10%;
+    left: 16%;
   }
 
-  .btn-general {
-    z-index: 10;
+  .account-details {
+    margin-left: 10rem;
+    width: 5rem;
+    font-size: 1.4rem;
+  }
+
+  .bio-desc {
+    width: 100vw;
+    padding: 0 1rem;
   }
 
   .user-action {
     position: absolute;
-    top: 5rem;
-  }
-
-  .bio-desc {
-    position: absolute;
-    bottom: 2rem;
-    left: 1rem;
-    width: 100vw;
-    padding-right: 2rem;
-  }
-
-  .account-details {
-    position: absolute;
     display: flex;
     width: 100vw;
-    gap: 10rem;
-    bottom: -15rem;
-    left: 0;
-    padding-left: 5rem;
-    padding-top: 1rem;
-    border-top: 1px solid #363636;
+    bottom: -4rem;
+    gap: 5px;
+    justify-content: center;
+    padding: 0 5px;
   }
 
-  .account-details > span {
+  .user-action > button {
     display: inline-flex;
-    flex-direction: column;
+    width: auto;
+    height: 2rem;
+    order: 3;
+    flex-grow: 1;
     align-items: center;
-    width: 1rem;
-    font-weight: normal;
-    font-size: small;
+    justify-content: center;
+    border-radius: 3px;
   }
 
+  .user-action > button:last-child {
+    width: 1rem;
+    flex-shrink: 1;
+  }
   /* ************************* */
   /* STORIES */
   /* ************************* */
   .stories-container {
     padding-left: 1rem;
-    margin-bottom: 6rem;
+    margin-top: 3.2rem;
+    margin-bottom: 1rem;
     gap: 2rem;
     height: 8rem;
   }
@@ -189,5 +187,10 @@
   .img-container {
     width: 11.8rem;
     height: 11.8rem;
+  }
+
+  .img-post {
+    width: 100%;
+    height: auto;
   }
 }
