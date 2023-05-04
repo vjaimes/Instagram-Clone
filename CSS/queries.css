@@ -287,7 +287,18 @@
   }
 
   .img-container {
-    padding: 1px 1px;
+    padding: 0 2px;
+  }
+
+  .img-post {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+
+  .img-screen,
+  .screen-icons {
+    display: none;
   }
 
   nav > a > :nth-child(2) {
