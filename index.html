@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/helpers.css" />
     <link rel="stylesheet" href="CSS/queries.css" />
+    <link rel="stylesheet" href="CSS/animations.css" />
 
     <title>Instagram Clone</title>
   </head>
@@ -43,6 +44,9 @@
         <div class="nav-container-inner">
           <div class="site-title">
             <h3>Instagram</h3>
+            <div class="logo">
+              <img src="img/logo.jpeg" alt="site logo" />
+            </div>
           </div>
 
           <div class="links-container">
@@ -108,20 +112,20 @@
         </div>
       </nav>
 
-      <!-- ************************ -->
-      <!-- HEADER SECTION-->
-      <!-- ************************ -->
       <section class="section-user">
+        <!-- ************************ -->
+        <!-- HEADER SECTION-->
+        <!-- ************************ -->
         <header>
           <div class="user-img-cont">
             <img
               class="user-img"
-              src="https://photographylife.com/wp-content/uploads/2016/06/Mass.jpg"
+              src="img/compressed/Profile/profile_compressed.jpg"
               alt="Picture of seaside in a cloudy environment with mountains in the background"
             />
           </div>
           <div class="bio-container">
-            <div class="user-header">
+            <div class="username-header">
               <h1 class="username">Seasonful_Experience</h1>
               <div class="user-action">
                 <button
@@ -144,13 +148,13 @@
                     name="person-add-outline"
                   ></ion-icon>
                 </button>
+                <a href="#" class="btn-general">
+                  <ion-icon
+                    class="dots-btn"
+                    name="ellipsis-horizontal"
+                  ></ion-icon>
+                </a>
               </div>
-              <a href="#" class="btn-general">
-                <ion-icon
-                  class="dots-btn"
-                  name="ellipsis-horizontal"
-                ></ion-icon>
-              </a>
             </div>
             <div class="account-details">
               <span><strong>10</strong> posts</span>
@@ -173,7 +177,7 @@
             <div class="story-bubble">
               <div class="bubble-container">
                 <img
-                  src="https://cdn.uc.assets.prezly.com/35778ab2-e31e-4248-81bd-f1fa715d59d5/-/preview/1920x1200/-/quality/best/-/format/auto/"
+                  src="img/compressed/stories/stories_compressed/story_1.jpg"
                   alt=""
                   class="story-img"
                 />
@@ -183,7 +187,7 @@
             <div class="story-bubble">
               <div class="bubble-container">
                 <img
-                  src="https://ewscripps.brightspotcdn.com/dims4/default/c85653f/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F9c%2F75%2Fee0b9f3142a0a63f6c4ec8d49250%2Fkm8.png"
+                  src="img/compressed/stories/stories_compressed/story_2.jpg"
                   alt=""
                   class="story-img"
                 />
@@ -193,7 +197,7 @@
             <div class="story-bubble">
               <div class="bubble-container">
                 <img
-                  src="https://media.cntraveler.com/photos/5ca2606227413200230736ae/master/pass/Summer-Travel_GettyImages-1028278382.jpg"
+                  src="img/compressed/stories/stories_compressed/story_3.jpg"
                   alt=""
                   class="story-img"
                 />
@@ -240,7 +244,11 @@
                   <span><strong>0</strong></span>
                 </div>
               </div>
-              <img class="img-post" src="img/nature_ (1).jpg" alt="" />
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (1).jpg"
+                alt=""
+              />
             </a>
 
             <a href="#" class="img-container">
@@ -255,7 +263,11 @@
                   <span><strong>0</strong></span>
                 </div>
               </div>
-              <img class="img-post" src="img/nature_ (2).jpg" alt="" />
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (2).jpg"
+                alt=""
+              />
             </a>
 
             <a href="#" class="img-container">
@@ -270,7 +282,11 @@
                   <span><strong>0</strong></span>
                 </div>
               </div>
-              <img class="img-post" src="img/nature_ (3).jpg" alt="" />
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (3).jpg"
+                alt=""
+              />
             </a>
           </div>
 
@@ -287,7 +303,11 @@
                   <span><strong>0</strong></span>
                 </div>
               </div>
-              <img class="img-post" src="img/nature_ (4).jpg" alt="" />
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (4).jpg"
+                alt=""
+              />
             </a>
             <a href="" class="img-container">
               <div class="img-screen"></div>
@@ -301,7 +321,11 @@
                   <span><strong>0</strong></span>
                 </div>
               </div>
-              <img class="img-post" src="img/nature_ (5).jpg" alt="" />
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (5).jpg"
+                alt=""
+              />
             </a>
             <a href="" class="img-container">
               <div class="img-screen"></div>
@@ -315,51 +339,11 @@
                   <span><strong>0</strong></span>
                 </div>
               </div>
-              <img class="img-post" src="img/nature_ (6).jpg" alt="" />
-            </a>
-          </div>
-          <div class="row-container">
-            <a href="" class="img-container">
-              <div class="img-screen"></div>
-              <div class="screen-icons">
-                <div>
-                  <ion-icon class="screen-icon" name="heart"></ion-icon>
-                  <span><strong>29</strong></span>
-                </div>
-                <div>
-                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
-                  <span><strong>0</strong></span>
-                </div>
-              </div>
-              <img class="img-post" src="img/nature_ (7).jpg" alt="" />
-            </a>
-            <a href="" class="img-container">
-              <div class="img-screen"></div>
-              <div class="screen-icons">
-                <div>
-                  <ion-icon class="screen-icon" name="heart"></ion-icon>
-                  <span><strong>29</strong></span>
-                </div>
-                <div>
-                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
-                  <span><strong>0</strong></span>
-                </div>
-              </div>
-              <img class="img-post" src="img/nature_ (8).jpg" alt="" />
-            </a>
-            <a href="" class="img-container">
-              <div class="img-screen"></div>
-              <div class="screen-icons">
-                <div>
-                  <ion-icon class="screen-icon" name="heart"></ion-icon>
-                  <span><strong>29</strong></span>
-                </div>
-                <div>
-                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
-                  <span><strong>0</strong></span>
-                </div>
-              </div>
-              <img class="img-post" src="img/nature_ (9).jpg" alt="" />
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (6).jpg"
+                alt=""
+              />
             </a>
           </div>
           <div class="row-container">
@@ -375,7 +359,67 @@
                   <span><strong>0</strong></span>
                 </div>
               </div>
-              <img class="img-post" src="img/nature_ (10).jpg" alt="" />
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (7).jpg"
+                alt=""
+              />
+            </a>
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (8).jpg"
+                alt=""
+              />
+            </a>
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (9).jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="row-container">
+            <a href="" class="img-container">
+              <div class="img-screen"></div>
+              <div class="screen-icons">
+                <div>
+                  <ion-icon class="screen-icon" name="heart"></ion-icon>
+                  <span><strong>29</strong></span>
+                </div>
+                <div>
+                  <ion-icon class="screen-icon" name="chatbubble"></ion-icon>
+                  <span><strong>0</strong></span>
+                </div>
+              </div>
+              <img
+                class="img-post"
+                src="img/compressed/posts/nature_ (10).jpg"
+                alt=""
+              />
             </a>
           </div>
         </article>

@@ -1,0 +1,21 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-container-main {
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+header,
+.stories-container {
+  animation: fade-in 0.5s ease-in-out 0.1s both;
+}
+
+.posts {
+  animation: fade-in 0.5s ease-in-out 0.3s both;
+}
