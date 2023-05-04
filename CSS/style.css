@@ -219,7 +219,6 @@ header {
   display: flex;
   gap: 4rem;
   margin-top: 2rem;
-  grid-column: 2 / -1;
 }
 
 .account-details span:hover:nth-child(n + 2) {

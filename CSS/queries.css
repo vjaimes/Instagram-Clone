@@ -117,6 +117,14 @@
     height: 2rem;
     align-items: center;
   }
+
+  .account-details {
+    text-align: center;
+  }
+
+  .account-details > span > strong {
+    display: block;
+  }
 }
 
 /* 576px */
@@ -172,6 +180,14 @@
   #more-btn,
   #compass-btn {
     display: none;
+  }
+
+  .account-details {
+    text-align: center;
+  }
+
+  .account-details > span > strong {
+    display: block;
   }
   /* ************************* */
   /* HEADER */
@@ -236,6 +252,16 @@
 
   .user-action > a {
     order: 10;
+  }
+
+  .account-details {
+    font-size: 1.4rem;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .account-details > span > strong {
+    display: block;
   }
   /* ************************* */
   /* STORIES */
