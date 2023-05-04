@@ -34,6 +34,18 @@
     <link rel="stylesheet" href="CSS/animations.css" />
 
     <title>Instagram Clone</title>
+
+    <script>
+      document.addEventListener(
+        "touchstart",
+        function (e) {
+          if (e.touches.length > 1) {
+            e.preventDefault();
+          }
+        },
+        { passive: false }
+      );
+    </script>
   </head>
   <body>
     <div class="container">
